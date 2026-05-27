@@ -51,6 +51,13 @@ python main.py
 The bot will extract data, write to Excel + Google Sheets, move processed files, and email a summary.
 
 ## Architecture
+```
+main.py                 ← orchestrator
+src/extractor.py        ← PDF → Pydantic Invoice model
+src/excel_writer.py     ← local master.xlsx
+src/sheets_writer.py    ← live Google Sheet sync
+src/email_sender.py     ← HTML batch summary email
+```
 ## What I'd improve
 
 - Extract line items as a structured list (currently empty in v1)
