@@ -1,0 +1,23 @@
+# PDF text extraction
+pdfplumber==0.11.4
+
+# OCR fallback for scanned PDFs
+pytesseract==0.3.13
+pdf2image==1.17.0
+Pillow==10.4.0
+
+# Excel output
+openpyxl==3.1.5
+
+# Data validation
+pydantic==2.9.2
+
+# Environment variables (Gmail credentials)
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.3.3
+
+# Google Sheets API
+gspread==6.1.4
+google-auth==2.35.0

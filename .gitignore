@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+invoices/inbox/*.pdf
+invoices/processed/*.pdf
+output/*.xlsx
+logs/*.log
+.DS_Store
+gcp-credentials.json
